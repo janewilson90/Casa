@@ -4,17 +4,19 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { BoozePage } from '../pages/booze/booze';
+import { AddBoozePage } from '../pages/addbooze/addbooze';
 import { NotesPage } from '../pages/notes/notes';
 import { FoodPage } from '../pages/food/food';
 import { TabsPage } from '../pages/tabs/tabs';
 
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+// import { StatusBar } from '@ionic-native/status-bar';
+// import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
   declarations: [
     MyApp,
     BoozePage,
+    AddBoozePage,
     NotesPage,
     FoodPage,
     TabsPage
@@ -27,6 +29,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     BoozePage,
+    AddBoozePage,
     NotesPage,
     FoodPage,
     TabsPage
