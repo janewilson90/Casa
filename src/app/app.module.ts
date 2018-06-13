@@ -35,8 +35,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     TabsPage
   ],
   providers: [
-    StatusBar,
-    SplashScreen,
+    // StatusBar,
+    // SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
